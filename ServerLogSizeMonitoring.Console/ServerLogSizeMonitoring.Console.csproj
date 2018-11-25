@@ -16,4 +16,10 @@
     <ProjectReference Include="..\ServerLogGrowthTracker.Implementation\ServerLogGrowthTracker.Implementation.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="CommandLineInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
