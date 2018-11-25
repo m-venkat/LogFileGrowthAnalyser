@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReadWriteUtility.Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReadWriteUtility.Implementation", "CsvReadWriteUtility.Implementation\CsvReadWriteUtility.Implementation.csproj", "{959799C5-BAD6-4082-8E6A-1A04842B000F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLogGrowthTracker.Abstraction", "ServerLogFiles.Abstraction\ServerLogGrowthTracker.Abstraction.csproj", "{F6E676BF-2278-4083-B13E-A51B01FE1CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLogGrowthTracker.Implementation", "ServerLogGrowthTracker.Implementation\ServerLogGrowthTracker.Implementation.csproj", "{EC0FBBC9-5E8D-4B1A-96AC-E3AF6B15F61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLogMonitoringSystem.Tests", "ServerLogMonitoringSystem.Tests\ServerLogMonitoringSystem.Tests.csproj", "{2CB20017-62A5-4AAB-9629-4B3CF0588546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLogSizeMonitoring.Console", "ServerLogSizeMonitoring.Console\ServerLogSizeMonitoring.Console.csproj", "{2929577F-3A83-4412-B7D5-1A1E3870BBA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{959799C5-BAD6-4082-8E6A-1A04842B000F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959799C5-BAD6-4082-8E6A-1A04842B000F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959799C5-BAD6-4082-8E6A-1A04842B000F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E676BF-2278-4083-B13E-A51B01FE1CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E676BF-2278-4083-B13E-A51B01FE1CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E676BF-2278-4083-B13E-A51B01FE1CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E676BF-2278-4083-B13E-A51B01FE1CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0FBBC9-5E8D-4B1A-96AC-E3AF6B15F61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0FBBC9-5E8D-4B1A-96AC-E3AF6B15F61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0FBBC9-5E8D-4B1A-96AC-E3AF6B15F61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0FBBC9-5E8D-4B1A-96AC-E3AF6B15F61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB20017-62A5-4AAB-9629-4B3CF0588546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB20017-62A5-4AAB-9629-4B3CF0588546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB20017-62A5-4AAB-9629-4B3CF0588546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB20017-62A5-4AAB-9629-4B3CF0588546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2929577F-3A83-4412-B7D5-1A1E3870BBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2929577F-3A83-4412-B7D5-1A1E3870BBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2929577F-3A83-4412-B7D5-1A1E3870BBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2929577F-3A83-4412-B7D5-1A1E3870BBA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
